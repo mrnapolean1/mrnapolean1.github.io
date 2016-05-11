@@ -1,0 +1,6 @@
+.shadetabs{padding:1px 0;margin-left:15px;margin-top:1px;margin-bottom:2px;font:bold 12px Verdana;list-style-type:none;text-align:left;}.shadetabs li{display:inline;margin:0;padding:1px;}.shadetabs li a{background-color:#531F3E;border:1px solid #370c23!important;box-shadow:0 1px 0 0 #b087ab inset!important;border-radius:6px 6px 0px 0px!important;background-image:-ms-linear-gradient(top,#825E7E 0%,#460D2C 100%);background-image:-moz-linear-gradient(top,#825E7E 0%,#460D2C 100%);background-image:-o-linear-gradient(top,#825E7E 0%,#460D2C 100%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#825E7E),color-stop(1,#460D2C));background-image:-webkit-linear-gradient(top,#825E7E 0%,#460D2C 100%);background-image:linear-gradient(top,#825E7E 0%,#460D2C 100%);color:#efefef;font-family:arial;font-size:14px;font-weight:bold;padding:3px 6px;text-decoration:none;text-shadow:1px 1px 0px #000;}.shadetabs li a:hover{color:#888888;text-decoration:none;}.shadetabs li a.selected{position:relative;top:1px;}.shadetabs li a.selected{background:#ADCBE7 url(/web/20130710070847/http://x.hackforums.net/images/blackreign/topnavback.gif);color:#4F3A6B;border-bottom-color:#81A2C4;text-shadow:1px 1px 0px #777777;}.shadetabs li a.selected:hover{text-decoration:none;}.tabcontent{display:none;}@
+media print {
+.tabcontent {
+display:block !important;
+}
+}
