@@ -1,0 +1,13 @@
+// ==UserScript==
+// @name            Welcome the HF.net and Date/time removal
+// @namespace       Github
+// @description     Removes the Welcome the Hackforums.net message and removes the date and time from the top of the page. 
+// @include         http://hackforums.net/*
+// @include         http://www.hackforums.net/*
+// @include         http://nsfw.hackforums.net/*
+// @include         http://www.nsfw.hackforums.net/*
+// @author	    mrnapolean1
+// @version     1.0
+// ==/UserScript==
+
+GM_addStyle("div.largetext { display: none !important; }"); 
