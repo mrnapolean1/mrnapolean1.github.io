@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       Old School HF - mrnapolean1 - Github - BETA
 // @namespace  Github
-// @version    2.6
+// @version    2.7
 // @description  This script will remove the modern theme and instead add the old theme
 // @match       *://*.hackforums.net/*
 // @grant none
@@ -20,18 +20,14 @@ images[i].src = images[i].src.replace('http://hackforums.net:8080/images/modern_
 images[i].src = images[i].src.replace('http://www.hackforums.net/images/groupimages/english/ub3r.png', 'http://mrnapolean1.github.io/theme/images2/ub3r.png');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/ub3r.png', 'http://mrnapolean1.github.io/theme/images2/ub3r.png');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/3p1c.png', 'http://mrnapolean1.github.io/theme/images2/3p1c.png');
-images[i].src = images[i].src.replace('http://www.hackforums.net/images/groupimages/english/admin2.png', 'http://mrnapolean1.github.io/theme/images2/admin.jpg');
-images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/admin-bar.png', 'http:mrnapolean1.github.io/theme/images2/admin.jpg');
-images[i].src = images[i].src.replace('http://x.hackforums.net/images/modern_bl/groupimages/english/admin-bar.png', 'http://mrnapolean1.github.io/theme/images2/admin.jpg');
+images[i].src = images[i].src.replace('hackforums.net/images/modern_bl/groupimages/english/admin-bar.png', 'mrnapolean1.github.io/theme/images2/admin.jpg');
 images[i].src = images[i].src.replace('http://www.hackforums.net/images/groupimages/english/staff.png', 'http://mrnapolean1.github.io/theme/images2/staff.png');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/staff.png', 'http://mrnapolean1.github.io/theme/images2/staff.png');
-images[i].src = images[i].src.replace('http://x.hackforums.net/images/modern_bl/groupimages/english/staff.png', 'http://mrnapolean1.github.io/theme/images2/staff.png');
+images[i].src = images[i].src.replace('hackforums.net/images/modern_bl/groupimages/english/writers2.png', 'mrnapolean1.github.io/theme/images2/Writers.png');
 images[i].src = images[i].src.replace('http://www.hackforums.net/images/groupimages/english/mentor.jpg', 'http://mrnapolean1.github.io/theme/images2/mentor.jpg');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/mentor.png', 'http://mrnapolean1.github.io/theme/images2/mentor.jpg');
-images[i].src = images[i].src.replace('http://x.hackforums.net/images/modern_bl/groupimages/english/mentor.png', 'http://mrnapolean1.github.io/theme/images2/mentor.jpg');   
 images[i].src = images[i].src.replace('http://www.hackforums.net/images/groupimages/english/l33t.png', 'http://mrnapolean1.github.io/theme/images2/hf_l33t.png');
-images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/l33t.png', 'http://mrnapolean1.github.io/theme/images2/hf_l33t.png')
-images[i].src = images[i].src.replace('http://x.hackforums.net/images/modern_bl/groupimages/english/l33t.png', 'http://mrnapolean1.github.io/theme/images2/hf_l33t.png');
+images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/groupimages/english/l33t.png', 'http://mrnapolean1.github.io/theme/images2/hf_l33t.png');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/starub3r2.png', 'http://mrnapolean1.github.io/theme/images2/ub3rstar.gif');
 images[i].src = images[i].src.replace('http://hackforums.net/images/modern_bl/minion.gif', 'http://mrnapolean1.github.io/theme/images2/minion.gif');
 images[i].src = images[i].src.replace('http://hackforums.net/images/blackreign/buddy_offline.gif', 'http://mrnapolean1.github.io/theme/images2/buddy_offline.gif');
